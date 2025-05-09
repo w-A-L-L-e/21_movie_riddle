@@ -8,8 +8,8 @@ second_pick_wins = 0
 
 def show_result(first_pick_wins, second_pick_wins, rounds):
     print(f"\nROUND {rounds}: ")
-    print("first_pick_wins   = ", first_pick_wins, "   percent won=", first_pick_wins/rounds * 100)
-    print("second_pick_wins  = ", second_pick_wins, "   percent won=", second_pick_wins/rounds * 100, "\n")
+    print("First pick wins   = ", first_pick_wins, "   percent won =", first_pick_wins/rounds * 100)
+    print("Second pick wins  = ", second_pick_wins, "   percent won =", second_pick_wins/rounds * 100, "\n")
 
 def play_round():
     global first_pick_wins
