@@ -21,7 +21,7 @@ def play_round():
 
     # open a door that is not winning
     open_door = random.randint(1,3)
-    while(open_door == win_door):
+    while(open_door == win_door or open_door == first_pick ):
         open_door +=1 
         if open_door>3:
             open_door = 1

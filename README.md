@@ -9,8 +9,8 @@ or change your choice.
 What should you do? Is it the same or should you switch?
 
 The answer is that if you switch your odds improve. The first pick is 33%
-winning however if you switch then your odds improve. It's actually not 66% but it is way
-better than 33% (close to 50%).
+winning however if you switch then your odds improve.
+When we simulate this we do see switching gets you 66%.
 
 Run the simulation and see the second pick does get more wins:
 
@@ -18,8 +18,9 @@ Run the simulation and see the second pick does get more wins:
 $ python doors_riddle.py
 
 ROUND 1000000:
-first_pick_wins   =  333498    percent won= 33.3498
-second_pick_wins  =  481495    percent won= 48.1495
+first_pick_wins   =  333724    percent won= 33.3724
+second_pick_wins  =  666276    percent won= 66.6276
+
 ```
 
 This riddle is also featured in the movie 21 with Kevin Spacey etc.
